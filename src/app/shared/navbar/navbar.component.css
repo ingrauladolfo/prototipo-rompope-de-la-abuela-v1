@@ -1,0 +1,9 @@
+nav{
+    background-color: #000000 !important;
+    
+    top: 0; /* Sets the sticky toolbar to be on top */
+    z-index: 1000; /* Ensure that your app's content doesn't overlap the toolbar */
+}
+.spacer{
+    flex: 1 1 auto;
+}
