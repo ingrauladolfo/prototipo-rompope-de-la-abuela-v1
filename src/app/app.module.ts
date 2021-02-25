@@ -10,6 +10,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatMenuModule } from '@angular/material/menu';
 import { HomeModule } from './home/home.module';
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
 @NgModule({
   declarations: [
     AppComponent
@@ -24,6 +25,7 @@ import { HomeModule } from './home/home.module';
     MatIconModule,
     MatToolbarModule,
     MatButtonModule,
+    MDBBootstrapModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
